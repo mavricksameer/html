@@ -22,9 +22,8 @@
     font-size: 200%;}
 .mem1 p:first-line {
     font-weight: bold;}
-.link li a:hover {
-    color: red;
-}
+
+
 .text button:hover{
     background-color: #666666;
     cursor: pointer;
@@ -35,4 +34,27 @@
     cursor: pointer;
     color: #ffffff;
 }
-
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: #ffff00;}
+  .box  p { 
+    color: #bbbbbb;
+    height: 75%;
+    width: 75%;
+    background-color: #cc00ff;}
+   .qqq h3 {
+    border-bottom: 1px solid rgb(100, 0, 231); 
+    color: #0011ff;
+   }
+   .qqq p {
+    width: 40%;
+    color: #000000;
+   }
+   .qqq h2{
+    color: rgb(4, 0, 255);
+   }
+   .qqq h3,  .qqq p{
+    color: red
+    ;
+   }
