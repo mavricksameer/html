@@ -1,4 +1,4 @@
-.me{
+.mem1{
     background-color: rgb(200,200,200);
     /* padding: 20px; */
     margin: 20px; border: 1px solid black;
@@ -6,10 +6,13 @@
 .me h1{    color: red;
 }
 .me p  { color: #000000;}
-.me h3
+.mem1 h3
 {color: rgb(255, 255, 255);font: 1em sans-serif; background: #ff00b3;}
 .me h2{ background: #000000; color: #ffffff; width: 70%; height: 20%;}
-.one{background-color: #eeeeee; color: #666666;  text-shadow: 1px 1px 0px ;}
+.one
+{background-color: #eeeeee;
+     color: #666666;
+       text-shadow: 1px 1px 0px ;}
 .two {background-color: #dddddd; color: #666666;  text-shadow: 1px 1px 3px ;}
 .three {background-color: #cccccc; color: #666666;  text-shadow: 1px 1px 4px ;}
 .four {background-color: #bbbbbb; color: #666666;  text-shadow: 1px 1px 5px ;}
@@ -19,4 +22,16 @@
     font-size: 200%;}
 .mem1 p:first-line {
     font-weight: bold;}
-
+.link li a:hover {
+    color: red;
+}
+.text button:hover{
+    background-color: #666666;
+    cursor: pointer;
+    color: aqua;
+}
+.Now button:hover {
+    background-color: rgb(77, 37, 0);
+    cursor: pointer;
+    color: #ffffff;
+}
