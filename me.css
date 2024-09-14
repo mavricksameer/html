@@ -35,3 +35,9 @@
     cursor: pointer;
     color: #ffffff;
 }
+
+.Now button:hover {
+    background-color: rgb(77, 37, 0);
+    cursor: pointer;
+    color: #ffffff;
+}
