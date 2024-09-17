@@ -47,14 +47,33 @@
     border-bottom: 1px solid rgb(100, 0, 231); 
     color: #0011ff;
    }
-   .qqq p {
-    width: 40%;
-    color: #000000;
-   }
+   
    .qqq h2{
     color: rgb(4, 0, 255);
    }
-   .qqq h3,  .qqq p{
-    color: red
-    ;
+  .qqq h3,  .qqq p{
+    color: red;
    }
+p.ek {
+    overflow:scroll;
+}
+p.do {
+    overflow: hidden;
+}
+ p.im {
+    border:2px solid red
+}
+.im{
+    width: 30%;
+}
+.om {
+    border-left:2px solid black;
+    border-bottom: 4px solid black;
+    border-right: 2px solid black;
+    border-top: 4px solid black;
+        width: 30%;
+}
+.thick {
+    border: 4px solid black;
+    width: 30%;
+}
