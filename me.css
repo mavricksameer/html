@@ -77,3 +77,55 @@ p.do {
     border: 4px solid black;
     width: 30%;
 }
+.border1 {
+    border-style: dashed;
+}
+.border2 {
+    border-style: dotted;
+}
+.border3 {
+    border-style: double;
+}
+.border4 {
+    border-style: groove;
+}
+.border5 {
+    border-style: inset;
+}
+.border6 {
+    border-style: outset;
+}
+.border7 {
+    border-style: ridge;
+}
+.bordercolor {
+    border: 2px solid rgb(174, 0, 255);
+    width: 70%;
+}
+.bordermixcolors {
+    border-left: 2px solid rgb(18, 110, 0) ;
+    border-bottom: 4px solid rebeccapurple;
+    border-right: 2px solid rgb(0, 247, 255);
+    border-top: 4px solid pink;
+}
+.padding {
+    padding: 10px;
+    border: 6px solid green;
+    width: 50%;
+}
+li.coming-soon{
+    visibility: hidden;
+}
+li {
+    display: inline;
+    padding: 20px;
+}
+.frame {
+    border-radius: 20px;
+    border: 6px solid rgb(255, 0, 0);
+    padding: 20px;
+    height: 50pxpx;
+    width: 40%;
+    
+    color: #000000;
+}
