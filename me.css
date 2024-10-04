@@ -213,5 +213,44 @@ td{
         border-right: none;
         border-color: #b3aaaa;
     }
+    .textpink {
+        background-color: pink;
+        color: white;
+        cursor: pointer;
+    }
+    .textred {
+        background: red;
+        color: white;
+        cursor: pointer;
+        border: dotted black;
+    }
+    .heading1 h1 {
+        background-color: #008607;
+        padding: 40px;
+        text-align: center;
+        color: white;
+        margin-bottom: 0%;
+    }
+    .heading2 {
+        background-color: #3b3636;
+        color: #ffffff;
+        padding: 10px;
+        display: flex;
+        gap: 20px;
+    }
+    .ColumnParent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .columnA{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .columnA h2{
+        color: #008607;
+    }
+
    
    
