@@ -1,0 +1,104 @@
+.Contact-us{
+    width: 40%;
+    height: auto;
+    background-color: rgb(6, 6, 8);
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font: italic;
+    color: #ffffff;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstname{
+    width: 48%;
+}
+
+.firstname input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 24px;
+}
+.firstname label {
+    font-size: small;
+}
+
+.lastname {
+    width: 48%;
+}
+
+.lastname input{
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 24px;
+}
+.lastname label {
+    font-size: small;
+}
+.FlexOne {
+    display: flex;
+    gap: 26px;
+}
+.Email {
+    width: 100%;
+}
+.Email input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 24px;
+}
+.fullname {
+    width: 100%;
+}
+
+.Feedback{
+    width: 100%;
+}
+.Feedback textarea {
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.Feedback :placeholder-shown {
+    padding: 10px;
+}
+.Contact-us button {
+    border: none;
+    border-radius: 6px;
+    color: #000;
+    padding: 6px;
+}
+.Contact-us button:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.Email span{
+    color: rgb(255, 0, 0);
+    margin: 0%;
+}
+.firstname span {
+    color: red;
+}
+.lastname span {
+    color: red;
+}
+.Feedback span{
+    color: red;
+}
+.fullname span{
+    color: red;
+}
+
