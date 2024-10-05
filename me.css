@@ -251,6 +251,46 @@ td{
     .columnA h2{
         color: #008607;
     }
+.verify button:hover
+{
+    background-color: #008607;
+    color: #ff0000;
+    cursor: pointer;
+    border-radius: 10%;
+}   
+.verify button
+{
+    background-color: #fdfdfd;
+    color: #0e508f;
+    border-radius: 10%;
+}
+.h1 {
+    text-align: center;
+    background-color: #9c9191;
+    color: #ff0000;
+}
+.headings-name li {
+    display: inline; 
+}
+.headings-name {
+    text-align: center;
+    background-color: #c5b1b1;
+    padding: 6px;
+    color: #ff0000;
+}
+.feature {
+    text-align: center;
+    background-color: #c5b1b1;
+    color: #ff0000;
+}
+.column1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #c5b1b1;
+    color: #ff0000;
+    
+}
 
-   
+
    

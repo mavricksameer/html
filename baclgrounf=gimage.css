@@ -1,0 +1,9 @@
+body {
+    background-color: aqua; 
+}
+.subheading {
+    background-image: url(./images/IMG_1797.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
