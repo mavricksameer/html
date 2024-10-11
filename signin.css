@@ -13,33 +13,147 @@
 .heading1 {
   width: 100%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 10px;
+  justify-content: space-around;
 }
-
+.hrasing-child-1 img {
+  height: 88.5vh;
+}
+/* 
 .hrasing-child-1 {
   width: 49%;
   background-color: transparent;
   height: auto;
-}
+} */
 
 .hrasing-child-2 {
-  width: 49%;
-  background-color: #fff;
-  height: 600px;
+  width: 22%;
+  background-color: transparent;
+  height: 82vh;
+  border: 2px solid red;
+  padding: 20px;
 }
-.newbar {
-  width: 100%;
+.signin .newbar {
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px;
 }
 
-.newbartext {
+/* .newbartext {
   width: 50%;
   text-align: end;
 }
 
 .efe {
   width: 50%;
+} */
+
+.hrasing-child-2 h1 {
+  color: white;
+  text-align: center;
+}
+
+.input1 {
+  text-align: center;
+}
+
+.input1 input {
+  width: 90%;
+  height: 34px;
+  margin-top: 16px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.input2 {
+  text-align: center;
+}
+
+.input2 input {
+  width: 90%;
+  height: 34px;
+  margin-top: 16px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.forgotpass {
+  margin-top: 10px;
+  color: #fff;
+  text-align: end;
+  width: 98%;
+}
+.forgotpass p {
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+.signinbutton button {
+  width: 96%;
+  margin-top: 20px;
+  height: 34px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.line0 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.line1 {
+  border-bottom: 1px solid #fff;
+  height: 2px;
+  width: 28%;
+}
+.line0 p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.button0 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 16px;
+}
+
+.button1 button {
+  height: 40px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+.button2 button {
+  height: 40px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 26px;
+  color: blue;
+}
+
+.button3 button {
+  height: 40px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 26px;
+}
+
+.button1 img {
+  width: 26px;
+  height: 26px;
 }
