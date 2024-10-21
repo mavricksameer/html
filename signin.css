@@ -31,7 +31,8 @@
   width: 22%;
   background-color: transparent;
   height: 82vh;
-  border: 2px solid red;
+  border: 2px solid transparent;
+
   padding: 20px;
 }
 .signin .newbar {
@@ -95,7 +96,7 @@
 }
 
 .signinbutton button {
-  width: 96%;
+  width: 98%;
   margin-top: 20px;
   height: 34px;
   border-radius: 10px;
@@ -156,4 +157,25 @@
 .button1 img {
   width: 26px;
   height: 26px;
+}
+.Create-account {
+  margin-top: 10px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.Create-account p {
+  color: gray;
+  font-size: 14px;
+  margin-top: 12px;
+  font-family: Roboto;
+}
+.Create-account b {
+  color: #fff;
+  margin-top: 10px;
+  font-family: Roboto;
+}
+.input0 {
+  margin-top: 30px;
 }
