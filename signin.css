@@ -143,7 +143,7 @@
   border-radius: 10px;
   border: none;
   font-size: 26px;
-  color: blue;
+  color: rgb(0, 0, 255);
 }
 
 .button3 button {
@@ -178,4 +178,45 @@
 }
 .input0 {
   margin-top: 30px;
+}
+.input1 input {
+  outline: none;
+}
+.input2 input {
+  outline: none;
+}
+.newbartext .signin-button {
+  padding: 8px;
+  border-radius: 6px;
+  outline: none;
+  border: dotted;
+  background-color: transparent;
+  color: #fff;
+  font-family: Roboto;
+}
+
+.newbartext .register-button {
+  padding: 8px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: #000000;
+  font-family: Roboto;
+}
+
+.newbartext {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Roboto;
+}
+.button2 i {
+  text-decoration: none;
+  color: blue;
+}
+
+.button3 i {
+  text-decoration: none;
+  color: black;
 }
