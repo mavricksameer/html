@@ -1,8 +1,9 @@
 * {
   height: auto;
-  width: 100%;
+
   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 .all {
   background: url("/images/3 (1).png") no-repeat bottom center/cover;
@@ -31,7 +32,7 @@
 }
 .facebook {
   width: 500px;
-  height: 60px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,8 +40,75 @@
   border: 1px solid gray;
   outline: none;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .facebook a {
   width: 20px;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.Google {
+  width: 500px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 1px solid gray;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Google img {
+  width: 26px;
+  height: 26px;
+}
+
+.Apple {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid gray;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.Apple i {
+  width: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.facebook i {
+  width: 20px;
+  color: blue;
+  font-size: 20px;
+}
+.line0 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 6px;
+}
+
+.line1 {
+  height: 2px;
+  border-bottom: 1px solid gray;
+  width: 238px;
+}
+
+.line0 p {
+  color: gray;
+  font-size: small;
 }
