@@ -112,3 +112,33 @@ a {
   color: gray;
   font-size: small;
 }
+
+.email input {
+  margin-top: 6px;
+  height: 18px;
+  width: 97%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  outline: none;
+  padding: 10px;
+}
+
+.email {
+  width: 500px;
+  margin-top: 0;
+  color: gray;
+}
+.signin {
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.signin button {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: blue;
+  border: none;
+  color: #fff;
+}
