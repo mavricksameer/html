@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+}
+
+.maindiv {
+  background: url("/images/istockphoto-108150928-1024x1024.jpg");
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+.headero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+  border-bottom: 1px solid gray;
+}
+
+.header {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
