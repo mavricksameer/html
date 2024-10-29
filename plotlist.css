@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 50px;
+  padding: 30px 50px;
   border-bottom: 1px solid gray;
 }
 
@@ -82,7 +82,7 @@
   align-items: center;
   justify-content: center;
   width: 20%;
-  background-color: #fff;
+  background-color: transparent;
   color: black;
   height: 40px;
   gap: 100px;
@@ -93,11 +93,19 @@
   align-items: center;
   justify-content: center;
   width: 20%;
-  background-color: #fff;
+  background-color: transparent;
   color: black;
   height: 40px;
   gap: 100px;
 }
 
-.location p {
+.location select {
+  width: 90%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.papadiv hr {
+  height: 20px;
 }
