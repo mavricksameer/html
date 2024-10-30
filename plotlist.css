@@ -70,24 +70,20 @@
 .papadiv {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-color: rgb(62, 107, 107);
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
   width: 90%;
   margin: auto;
   height: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
 }
-
-.allareas {
+.papadiv-child1 {
+  width: 90%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 20%;
-  background-color: transparent;
-  color: black;
-  height: 40px;
-  gap: 100px;
+  justify-content: space-between;
 }
-
 .location {
   display: flex;
   align-items: center;
@@ -108,4 +104,83 @@
 
 .papadiv hr {
   height: 20px;
+}
+
+.allaread {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  background-color: transparent;
+  color: black;
+  height: 40px;
+  padding: 0px 0px 0px 20px;
+  /* gap: 100px; */
+}
+
+.allaread select {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  background-color: transparent;
+  color: black;
+  height: 40px;
+  gap: 100px;
+}
+
+.location select {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.pricerange {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  background-color: transparent;
+  color: black;
+  height: 40px;
+  gap: 10px;
+}
+
+.pricerange select {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.searchbutton {
+  background-color: gray;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.searchbutton span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 30px;
+  height: 30px;
+  color: gray;
 }
