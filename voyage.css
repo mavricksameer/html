@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+.parent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url(images/blurred-gradient-background-pink-color_58702-1643.avif);
+}
+
+.newbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

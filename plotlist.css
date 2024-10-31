@@ -184,3 +184,10 @@
   height: 30px;
   color: gray;
 }
+
+.apartment span {
+  height: 40px;
+  width: 40px;
+  background-color: gray;
+  border-radius: 10px;
+}
