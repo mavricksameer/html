@@ -3,8 +3,7 @@
 }
 .parent {
   width: 100%;
-  height: 100vh;
-  display: flex;
+  height: auto;
   background-image: url(images/blurred-gradient-background-pink-color_58702-1643.avif);
 }
 
@@ -12,4 +11,48 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 50px;
+  padding: 50px 100px 0px 0px;
+}
+
+.newbar1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  color: #f5eaea;
+}
+
+.topic {
+  padding: 50px 0px 0px 100px;
+  font-family: Sour Gummy;
+  color: #fff;
+}
+
+.topic h3 {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.dream-vacations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 92.2vh;
+  margin: auto;
+}
+
+.dream-vacations p {
+  width: 42%;
+  margin-top: 20px;
+  color: #f5eaea;
+}
+
+.topic2 {
+  font-family: Sour Gummy;
+  color: white;
+  font-size: xx-large;
 }
