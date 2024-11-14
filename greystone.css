@@ -131,3 +131,83 @@
 .Pro hr {
   margin-top: 20px;
 }
+
+.enterprise {
+  background-color: #101828;
+  width: 363px;
+  height: 576px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.enterprisetext {
+  color: #0c50ff;
+  font-weight: 600;
+  font-size: 34px;
+  font-family: poppins;
+  padding: 22px 0px 0px 59px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+
+.enterprisetext button {
+  width: 68px;
+  height: 30px;
+  border-radius: 6px;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: poppins;
+  background-color: #ff97e8;
+  border: none;
+}
+
+.enterprise hr {
+  width: 245px;
+  margin: auto;
+}
+
+.enterprise hr {
+  margin-top: 20px;
+}
+
+.colordiv {
+  padding-left: 59px;
+  display: flex;
+  gap: 20px;
+}
+
+.colordiv span {
+  width: 24px;
+  height: 24px;
+  background-color: #ff9900;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.colordiv p {
+  margin-top: 20px;
+  font-family: poppins;
+  font-weight: 500;
+  color: #fff;
+  font-size: 16px;
+}
+
+.colorbutton button {
+  width: 232px;
+  height: 54px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.colorbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
