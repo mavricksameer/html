@@ -1,2 +1,10 @@
-const a = ["1,2,3,4"]
+// const a = ["1,2,3,4"]
+// let myyoutubename = "mavricksameer"
+// let anothername = myyoutubename
+// console.log(anothername);
+const name = "sameer"
+const rollnumber = 20
+
+console.log(`my name is ${name} and my roll number is ${rollnumber}`);
+
 
