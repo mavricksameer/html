@@ -6,5 +6,7 @@ const name = "sameer"
 const rollnumber = 20
 
 console.log(`my name is ${name} and my roll number is ${rollnumber}`);
+const gameName = new String ('Sameer')
+console.log( gameName.charAt(2));
 
 
