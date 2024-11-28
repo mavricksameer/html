@@ -13,8 +13,13 @@ const url ="https://github.com/mavricksameer"
 console.log(url.replace ("/","-"));
 const score = 400
 console.log(score);
-
-
+console.log(Math);
+console.log(Math.abs (-4));
+console.log(Math.round (4.6));
+console.log(Math.ceil (4.2));
+console.log(Math.floor (4.2));
+console.log(Math.min (4,2,1,3));
+console.log(Math.max (9,2,1,3));
 
 
 
