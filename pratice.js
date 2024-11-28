@@ -11,5 +11,10 @@ console.log( gameName.charAt(2));
 console.log( gameName.indexOf("r"));
 const url ="https://github.com/mavricksameer"
 console.log(url.replace ("/","-"));
+const score = 400
+console.log(score);
+
+
+
 
 
