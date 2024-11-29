@@ -21,5 +21,9 @@ console.log(Math.floor (4.2));
 console.log(Math.min (4,2,1,3));
 console.log(Math.max (9,2,1,3));
 
+date
+let myDate = new Date()
+console.log(myDate.toDateString);
+
 
 
