@@ -28,9 +28,11 @@ console.log(Math.max(9, 2, 1, 3));
 // console.log(myCreateDate.toDateString());
 let myDate = new Date(2022, 2, 23)
 console.log(myDate.getMonth());
-meme
-shaheen
-
+// myArr.push(6)
+// console.log(Arr);
+const myarr2 = new Array(1,2,3,4,5,6,)
+console.log(myarr2);
+myarr2.pop
 
 
 
